@@ -1,0 +1,11 @@
+**/exp
+**/modules.order
+**/Module.symvers
+**/pwn.o
+**/pwn.ko
+**/pwn.mod.c
+**/pwn.mod.o
+**/.pwn*.cmd
+**/.tmp_versions
+/linux-*/*
+**/initrd/*

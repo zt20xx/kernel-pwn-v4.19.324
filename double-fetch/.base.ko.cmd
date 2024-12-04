@@ -1,0 +1,1 @@
+cmd_/home/zt/study/kernel/double-fetch/base.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -z noexecstack --no-warn-rwx-segments -T ./scripts/module-common.lds  --build-id  -o /home/zt/study/kernel/double-fetch/base.ko /home/zt/study/kernel/double-fetch/base.o /home/zt/study/kernel/double-fetch/base.mod.o ;  true
